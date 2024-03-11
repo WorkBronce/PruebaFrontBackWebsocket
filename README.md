@@ -40,26 +40,26 @@ Configuración del correo electrónico
 En el archivo app.service.ts del backend, modifica el método sendEmail() con las credenciales de tu cuenta de Mailtrap:
 
 
-async sendEmail(): Promise<void> {
-  try {
-    // Crear un transportador de correo electrónico para Mailtrap
-    const transporter = nodemailer.createTransport({
-      host: 'smtp.mailtrap.io',
-      port: 2525,
-      auth: {
-        user: 'your-mailtrap-username',
-        pass: 'your-mailtrap-password',
-      },
-    });
-    await transporter.sendMail({
-      from: 'your-email@example.com',
-      to: 'recipient@example.com',
-      subject: 'Notificación de evento en tiempo real',
-      text: 'Se ha producido un evento en tiempo real.',
-    });
-    console.log('Correo electrónico enviado con éxito.');
-  } catch (error) {
-    console.error('Error al enviar el correo electrónico:', error);
-  }
-}
+    async sendEmail(): Promise<void> {
+      try {
+        // Crear un transportador de correo electrónico para Mailtrap
+        const transporter = nodemailer.createTransport({
+          host: 'smtp.mailtrap.io',
+          port: 2525,
+          auth: {
+            user: 'your-mailtrap-username',
+            pass: 'your-mailtrap-password',
+          },
+        });
+        await transporter.sendMail({
+          from: 'your-email@example.com',
+          to: 'recipient@example.com',
+          subject: 'Notificación de evento en tiempo real',
+          text: 'Se ha producido un evento en tiempo real.',
+        });
+        console.log('Correo electrónico enviado con éxito.');
+      } catch (error) {
+        console.error('Error al enviar el correo electrónico:', error);
+      }
+    }
 
