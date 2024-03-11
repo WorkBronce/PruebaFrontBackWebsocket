@@ -38,6 +38,7 @@ Instalación y Uso
 Configuración del correo electrónico
 
 En el archivo app.service.ts del backend, modifica el método sendEmail() con las credenciales de tu cuenta de Mailtrap:
+
 `
 async sendEmail(): Promise<void> {
   try {
@@ -50,17 +51,15 @@ async sendEmail(): Promise<void> {
         pass: 'your-mailtrap-password',
       },
     });
-
-    // Enviar el correo electrónico
     await transporter.sendMail({
       from: 'your-email@example.com',
       to: 'recipient@example.com',
       subject: 'Notificación de evento en tiempo real',
       text: 'Se ha producido un evento en tiempo real.',
     });
-
     console.log('Correo electrónico enviado con éxito.');
   } catch (error) {
     console.error('Error al enviar el correo electrónico:', error);
   }
-}`
+}
+`
