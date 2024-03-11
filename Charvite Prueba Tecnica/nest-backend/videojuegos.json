@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "nombre": "The Legend of Zelda: Breath of the Wild",
+    "creador": "Nintendo",
+    "genero": "Aventura"
+  },
+  {
+    "id": 2,
+    "nombre": "The Witcher 3: Wild Hunt",
+    "creador": "CD Projekt Red",
+    "genero": "RPG"
+  },
+  {
+    "id": 3,
+    "nombre": "Super Mario Odyssey",
+    "creador": "Nintendo",
+    "genero": "Plataforma"
+  },
+  {
+    "id": 4,
+    "nombre": "Red Dead Redemption 2",
+    "creador": "Rockstar Games",
+    "genero": "Acción-Aventura"
+  },
+  {
+    "id": 5,
+    "nombre": "God of War (2018)",
+    "creador": "Santa Monica Studio",
+    "genero": "Acción-Aventura"
+  },
+  {
+    "id": 6,
+    "nombre": "Minecraft",
+    "creador": "Mojang",
+    "genero": "Sandbox"
+  },
+  {
+    "id": 7,
+    "nombre": "Grand Theft Auto V",
+    "creador": "Rockstar Games",
+    "genero": "Acción-Aventura"
+  },
+  {
+    "id": 8,
+    "nombre": "Fortnite",
+    "creador": "Epic Games",
+    "genero": "Battle Royale"
+  },
+  {
+    "id": 9,
+    "nombre": "League of Legends",
+    "creador": "Riot Games",
+    "genero": "MOBA"
+  },
+  {
+    "id": 10,
+    "nombre": "Overwatch",
+    "creador": "Blizzard Entertainment",
+    "genero": "Shooter"
+  },
+  {
+    "id": 11,
+    "nombre": "FIFA 22",
+    "creador": "EA Sports",
+    "genero": "Deportes"
+  },
+  {
+    "id": 12,
+    "nombre": "Call of Duty: Warzone",
+    "creador": "Activision",
+    "genero": "Battle Royale"
+  },
+  {
+    "id": 13,
+    "nombre": "The Elder Scrolls V: Skyrim",
+    "creador": "Bethesda Game Studios",
+    "genero": "RPG"
+  },
+  {
+    "id": 14,
+    "nombre": "Animal Crossing: New Horizons",
+    "creador": "Nintendo",
+    "genero": "Simulación de vida"
+  },
+  {
+    "id": 15,
+    "nombre": "Cyberpunk 2077",
+    "creador": "CD Projekt Red",
+    "genero": "RPG"
+  },
+  {
+    "id": 16,
+    "nombre": "Assassin's Creed Valhalla",
+    "creador": "Ubisoft",
+    "genero": "Acción-Aventura"
+  },
+  {
+    "id": 17,
+    "nombre": "Mortal Kombat 11",
+    "creador": "NetherRealm Studios",
+    "genero": "Lucha"
+  },
+  {
+    "id": 18,
+    "nombre": "Pokémon Sword and Shield",
+    "creador": "Game Freak",
+    "genero": "RPG"
+  },
+  {
+    "id": 19,
+    "nombre": "Halo Infinite",
+    "creador": "343 Industries",
+    "genero": "Shooter"
+  },
+  {
+    "id": 20,
+    "nombre": "Among Us",
+    "creador": "InnerSloth",
+    "genero": "Multijugador en línea"
+  },
+  {
+    "id": 21,
+    "nombre": "Dark Souls III",
+    "creador": "FromSoftware",
+    "genero": "RPG"
+  },
+  {
+    "id": 22,
+    "nombre": "Counter-Strike: Global Offensive",
+    "creador": "Valve Corporation",
+    "genero": "Shooter"
+  }
+]
